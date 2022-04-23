@@ -1,0 +1,22 @@
+{
+  "&schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "background": "p:yellow",
+          "foreground": "p:black",
+          "leading_diamond": "\ue0b6",
+          "properties": {
+            "display_host": false
+          },
+          "style": "diamond",
+          "template": " {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }} ",
+          "trailing_diamond": "\ue0b0",
+          "type": "session"
+        }
+      ]
+    }
+  ]
+}
