@@ -12,6 +12,7 @@ Set-PSReadLineOption -PredictionSource History
 # Aliases
 Set-Alias ll ls
 Set-Alias -Name vim -Value nvim
+Set-Alias g git
 
 # Utility functions
 function which ($command) {
